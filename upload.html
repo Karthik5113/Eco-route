@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Disease Prediction</title>
+    <link rel="stylesheet" href="upload.css">
+</head>
+<body>
+    <header>
+        <h1>AI-Driven Crop Disease Prediction</h1>
+        <p>Upload a crop image to detect potential diseases.</p>
+    </header>
+
+    <main>
+        <form id="uploadForm">
+            <label for="cropImage">Select Crop Image:</label>
+            <input type="file" id="cropImage" accept="image/*">
+            <button type="submit">Predict Disease</button>
+        </form>
+
+        <div id="result">
+            <h2>Prediction Result:</h2>
+            <p id="predictionText">No prediction yet.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Crop Disease Management System</p>
+    </footer>
+
+    <script src="upload.js"></script>
+</body>
+</html>
